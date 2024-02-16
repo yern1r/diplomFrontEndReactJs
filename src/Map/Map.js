@@ -3,13 +3,10 @@ import {MapContainer ,
         TileLayer,
         Polygon
       } from 'react-leaflet';
-import './App.css'
+import '../App.css'
 import 'leaflet/dist/leaflet.css'
-import { kzData } from "./dataset";
-import { geoData } from "./dataKZ";
-import {regionsData} from "./data";
-import {dataKaz} from "./kz_1"
-export default function App() {
+import {dataKaz} from "../DataForMap/kz_1";
+const Map = () => {
   const center = [51.14785201811187, 71.42051412480411];
 
   return (
@@ -108,3 +105,7 @@ export default function App() {
     </MapContainer>
   );
 }
+
+export default  Map;
+  
+
