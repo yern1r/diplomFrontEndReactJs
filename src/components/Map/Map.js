@@ -5,7 +5,7 @@ import {MapContainer ,
       } from 'react-leaflet';
 import '../App.css'
 import 'leaflet/dist/leaflet.css'
-import {dataKaz} from "../DataForMap/kz_1";
+import {dataKaz} from "../../DataForMap/kz_1";
 const Map = () => {
   const center = [51.14785201811187, 71.42051412480411];
 

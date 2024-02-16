@@ -1,5 +1,5 @@
-import Quiz from "./Quiz/Quiz";
-import {kazakhLanguageQuiz} from "./Quiz/constant";
+import Quiz from "./components/Quiz/Quiz";
+import {kazakhLanguageQuiz} from "./components/Quiz/constant";
 // import Map from "./Map/Map";
 
 function App(){
