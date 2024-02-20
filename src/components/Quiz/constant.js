@@ -19,6 +19,11 @@ export const kazakhLanguageQuiz = {
       correctAnswer: "Алма",
     },
     {
+      question: "The _____ , also known as Dombyra Kazakh: домбыра), is a long-necked musical string instrument used by the Kazakhs in their traditional folk music..",
+      type: "FIB",
+      correctAnswer: "Dombyra",
+    },
+    {
       question: "What is the synonym of the word 'Сұлу'(Sulu)?",
       choices: ["Әдепті", "Әдемі", "Сыпайы", "Мықты", "Салмақты"],
       type: "MCQs",
